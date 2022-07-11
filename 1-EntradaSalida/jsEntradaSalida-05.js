@@ -8,18 +8,11 @@ ej.: "Usted se llama José y tiene 66 años" 	*/
 function mostrar() {
 	//Creamos variables
 	let nombre;
-	let edadIngresada;
-
-
-	//tomamos datos por id
-	//Donde lo guardo - que guardo
-
+	let edad;
+	//Buscamos id
 	nombre = document.getElementById("txtIdNombre").value;
-	edadIngresada = document.getElementById("txtIdEdad").value;
-
-	//mostrarlos unidos
-	//Cada vez que usamos o concatenamos tenemos que usar el simbolo +
-	alert("Su nombre es " + nombre + " y su edad es " + edadIngresada + " años.");
+	edad = document.getElementById("txtIdEdad").value;
+	alert("Usted se llama " + nombre + " y tiene " + edad + " años");
 }
 
 /* 

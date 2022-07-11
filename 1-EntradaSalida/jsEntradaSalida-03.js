@@ -5,14 +5,9 @@ Ejercicio 3 E/S
 */
 function mostrar() {
 	//declarar variable
-	let nombreIngresado;
-
-	//tomar datos
-	//inicializar variable
-	nombreIngresado = document.getElementById("txtIdNombre").value;
-
-	//mostrar informacion
-	alert(nombreIngresado);
+	let nombre;
+	nombre = document.getElementById("txtIdNombre").value;
+	alert("Su nombre es: " + nombre);
 }
 /*
 //ingresamos datos
